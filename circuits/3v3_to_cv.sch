@@ -5431,4 +5431,6 @@ F 4 "TL074CDT" H 9200 5500 50  0001 C CNN "mpn"
 	4    9200 5500
 	1    0    0    -1  
 $EndComp
+Text Notes 1600 4575 0    50   ~ 0
+Note: If there are multiple instances of this\nsheet in one project, take this CV_BIAS fragment\nand put it on the top-level sheet with\nCV_BIAS as a hierarchical input to the project\ncopy of this sheet.
 $EndSCHEMATC

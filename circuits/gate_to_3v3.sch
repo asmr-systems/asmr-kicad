@@ -327,4 +327,92 @@ Text HLabel 8300 5250 2    50   Output ~ 0
 GATE_3V3_4
 Text Notes 650  1450 0    50   ~ 0
 Each gate input is a high impedance (100K) input\ndriving an N-Channel MOSFET which converts a\npulse of arbitrary voltage to a 3.3V pulse. A pull-down\nresistor keeps the output low when the MOSTFET is\nin the open state.\n\nSimulation:\nhttps://tinyurl.com/yd53ohy7
+$Comp
+L power:GND #PWR?
+U 1 1 620A1C18
+P 4150 3800
+F 0 "#PWR?" H 4150 3550 50  0001 C CNN
+F 1 "GND" H 4155 3627 50  0000 C CNN
+F 2 "" H 4150 3800 50  0001 C CNN
+F 3 "" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A2BAA
+P 4650 3800
+F 0 "#PWR?" H 4650 3550 50  0001 C CNN
+F 1 "GND" H 4655 3627 50  0000 C CNN
+F 2 "" H 4650 3800 50  0001 C CNN
+F 3 "" H 4650 3800 50  0001 C CNN
+	1    4650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A3D3B
+P 7400 3850
+F 0 "#PWR?" H 7400 3600 50  0001 C CNN
+F 1 "GND" H 7405 3677 50  0000 C CNN
+F 2 "" H 7400 3850 50  0001 C CNN
+F 3 "" H 7400 3850 50  0001 C CNN
+	1    7400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A43FF
+P 7900 3850
+F 0 "#PWR?" H 7900 3600 50  0001 C CNN
+F 1 "GND" H 7905 3677 50  0000 C CNN
+F 2 "" H 7900 3850 50  0001 C CNN
+F 3 "" H 7900 3850 50  0001 C CNN
+	1    7900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A52E4
+P 7400 5650
+F 0 "#PWR?" H 7400 5400 50  0001 C CNN
+F 1 "GND" H 7405 5477 50  0000 C CNN
+F 2 "" H 7400 5650 50  0001 C CNN
+F 3 "" H 7400 5650 50  0001 C CNN
+	1    7400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A5975
+P 7900 5650
+F 0 "#PWR?" H 7900 5400 50  0001 C CNN
+F 1 "GND" H 7905 5477 50  0000 C CNN
+F 2 "" H 7900 5650 50  0001 C CNN
+F 3 "" H 7900 5650 50  0001 C CNN
+	1    7900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A6A95
+P 4150 5600
+F 0 "#PWR?" H 4150 5350 50  0001 C CNN
+F 1 "GND" H 4155 5427 50  0000 C CNN
+F 2 "" H 4150 5600 50  0001 C CNN
+F 3 "" H 4150 5600 50  0001 C CNN
+	1    4150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 620A7086
+P 4650 5600
+F 0 "#PWR?" H 4650 5350 50  0001 C CNN
+F 1 "GND" H 4655 5427 50  0000 C CNN
+F 2 "" H 4650 5600 50  0001 C CNN
+F 3 "" H 4650 5600 50  0001 C CNN
+	1    4650 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
